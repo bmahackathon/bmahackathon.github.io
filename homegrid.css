@@ -1,0 +1,44 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.cntr {
+  text-align: center;
+}
+.box {
+  font-size: 1rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  text-align: justify;
+  color: #c5c6c7;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  padding: 2rem;
+}
+.title {
+  color: #c5c6c7;
+  font-family: "Century Gothic", sans-serif;
+}
+.p {
+  font-size: 1rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  text-align: justify;
+  color: rgba(16, 112, 190, 0.856);
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

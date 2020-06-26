@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+
+  overflow: hidden;
+  background-color: rgb(15, 128, 136);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 700;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgba(128, 214, 253, 0.925);
+  color: white;
+}
